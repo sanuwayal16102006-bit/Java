@@ -1,0 +1,20 @@
+ class Marvellous
+ {
+    public  int no1;
+    public  int no2;
+
+    public void fun()
+    {
+        System.out.println("Inside  fun");
+    }
+ }
+class Encapsulation
+{
+
+    public  static  void    main(String A[])
+    {
+        Marvellous  mobj=   new Marvellous();
+
+        mobj.fun();
+    }
+}
